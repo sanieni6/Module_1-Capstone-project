@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+html {
+  box-sizing: border-box;
+  height: max-content;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.back {
+  background-image: url('images/background1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.header-desktop {
+  display: none;
+}
+
+.main-header {
+    width: 80%;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.ham-btn,
+.ham-image {
+  margin-left: 10px;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  /* background-color: #fff; */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.home-page {
+  height: 85%;
+  align-items: center;
+}
+
+.home-page,
+.header-about {
+    /* background-color: #d3d3d3; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-about {
+  background-image: url('images/background1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.welcome,
+.title {
+  color: #ec5242;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  align-self: center;
+  font-weight: 400;
+  align-content: center;
+
+}
+
+.welcome {
+  margin: 25px 0 0;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+    font-size: 33px;
+    font-weight: 900;
+    margin: 8px 0 0;
+
+}
+
+.main-description {
+  line-height: 22px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    border: 2px;
+    width: 90%;
+    align-self: center;
+    border: 3px solid #fff;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 20px 0 0;
+
+}
+
+.date,
+.place {
+    font-family: Lato, sans-serif;
+    align-self: center;
+    color: #5d5d5d;
+    margin: 10px 0 0;
+}
+
+.date {
+  font-weight: 900;
+  line-height: ;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-about {
+  align-items: center;
+}
+
+.contact-about {
+  align-self: center;
+  border: none;
+  text-align: center;
+}
+
+.contact-about > a {
+  color: #000;
+  font-weight: bold;
+
+}
+
+/* main about */
+
+.main-about,
+.past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+    font-family: Lato, sans-serif;
+}
+
+.title-logo {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0 5px;
+}
+
+.back-desp {
+  background-color: #fff;
+  border:2px solid #d3d3d3;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.divider-title {
+  background-color: #ec5242;
+  width: 30px;
+  height: 2px;
+  border: 0;
+}
+
+.description-logo {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px 0 24px;
+}
+
+.logo-image {
+  width: 80%;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 30px;
+}
+
+.concert-image {
+  width: 85%;
+
+}
+
+.first {
+  margin-bottom: 10px;
+}
+
+.second {
+  margin-bottom: 30px;
+
+}
+
+.hr-section {
+  width: 100%;
+  border: 0;
+  background-color: #d3d3d3;
+  height: 1px;
+}
+
+.past-fests {
+  width: 90%;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  padding-left: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.title-footer {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-right: 30px;
+}
+
+.description-footer {
+  display: none;
+}
+
+.welcome,
+.title,
+.main-description,
+.date,
+.place {
+  width: 90%;
+
+}
+
