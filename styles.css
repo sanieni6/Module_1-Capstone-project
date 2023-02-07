@@ -16,7 +16,7 @@ body {
   background-position: center;
   background-size: 100% 100%;
   width: 100%;
-  height: 100vh;
+  height: max-content;
 }
 
 .header {
@@ -42,6 +42,10 @@ body {
   display: none;
 }
 
+.home-button {
+  display: none;
+}
+
 .ham-btn,
 .ham-image {
   margin-left: 10px;
@@ -64,6 +68,7 @@ body {
 .home-page {
   height: 85%;
   align-items: center;
+  gap: 20px;
 }
 
 .home-page,
@@ -92,7 +97,7 @@ body {
 }
 
 .welcome {
-  margin: 25px 0 0;
+  margin: 35px 0 0;
 }
 
 .center {
@@ -125,9 +130,85 @@ body {
   margin: 10px 0 0;
 }
 
+.place {
+  margin-bottom: 40px;
+}
+
 .date {
   font-weight: 900;
 }
+
+/* main */
+
+.program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+  background-color: #282b32;
+}
+
+.title-program {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0 0;
+  list-style: none;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: max-content;
+  padding: 0;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.schedule-items {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  background-color: #3d4047;
+  width: 100%;
+  align-items: center;
+}
+
+.descriptive-image {
+  width: 60px;
+  height: 60px;
+}
+
+.title-item {
+  font-family: Lato, sans-serif;
+  color: #ec5242;
+  font-size: 12px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.description-item {
+  width: 50%;
+  font-family: Lato, sans-serif;
+  color: #d3d3d3;
+  font-size: 10px;
+}
+
+.join-button {
+  border: none;
+  background-color: #ec5242;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+/* main */
 
 .about-page {
   display: flex;
@@ -214,6 +295,40 @@ body {
   text-align: center;
 }
 
+/* partners */
+.partners {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #272a31;
+}
+
+.partner-title {
+  font-family: Lato, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  align-self: center;
+  margin: 20px 0 0;
+}
+
+.partner {
+  align-self: center;
+  width: 95%;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.sponsor-img {
+  filter: grayscale(1);
+  width: 100px;
+  height: 70px;
+}
+
 .footer {
   width: 100%;
   height: 70px;
@@ -226,12 +341,26 @@ body {
 }
 
 .logo-footer {
-  padding-left: 30px;
+  margin-left: 20%;
   width: 60px;
   height: 60px;
 }
 
-.title-footer {
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-footer,
+.description-footer {
   font-family: Lato, sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -248,4 +377,298 @@ body {
 .date,
 .place {
   width: 90%;
+}
+
+.whole-program {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header-desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #272a31;
+    justify-content: flex-end;
+  }
+
+  .social-media {
+    width: 18px;
+    height: 18px;
+  }
+
+  .social-bar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    gap: 25px;
+    align-self: flex-end;
+    margin: 8px 11% 8px 0;
+  }
+
+  .social-element > a {
+    color: #fff;
+    text-decoration-line: none;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .main-header {
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .home-button {
+    display: block;
+  }
+
+  .ham-btn {
+    display: none;
+  }
+
+  .header-logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .link {
+    text-decoration-line: none;
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .ticket-button {
+    padding: 10px 15px;
+    border: 4px solid #ec5242;
+  }
+
+  .ticket-button > a {
+    color: #ec5242;
+  }
+
+  .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home-page {
+    width: 60%;
+    margin-left: 15%;
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+  .welcome {
+    margin-top: 80px;
+    font-size: 40px;
+    line-height: 45px;
+    align-self: flex-start;
+  }
+
+  .title {
+    font-size: 70px;
+    line-height: 80px;
+    align-self: flex-start;
+  }
+
+  .main-description {
+    width: 65%;
+    align-self: flex-start;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .date {
+    font-size: 40px;
+    line-height: 45px;
+    align-self: flex-start;
+  }
+
+  .place {
+    align-self: flex-start;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0 0 30px;
+  }
+
+  .title-program {
+    font-weight: 300;
+    margin: 40px 0 0;
+  }
+
+  .divider-title {
+    width: 45px;
+    margin-bottom: 40px;
+  }
+
+  .schedule {
+    flex-flow: wrap;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .schedule-items {
+    flex-direction: column;
+    width: 200px;
+    height: 160px;
+  }
+
+  .title-item {
+    margin: 0;
+  }
+
+  .description-item {
+    margin: 0;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .whole-program {
+    display: block;
+    color: #d3d3d3;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 40px 0 60px;
+  }
+
+  .center {
+    align-self: center;
+  }
+
+  .header-about {
+    gap: 50px;
+  }
+
+  .header-about > h3 {
+    display: none;
+  }
+
+  .header-about > h2 {
+    margin-top: 100px;
+    align-self: center;
+    text-align: center;
+  }
+
+  .header-about > p {
+    align-self: center;
+  }
+
+  .back-desp {
+    width: 55%;
+  }
+
+  .desktop-ver {
+    display: none;
+  }
+
+  .contact-about {
+    margin-bottom: 80px;
+  }
+
+  .title-logo {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .logo-image {
+    width: 400px;
+    height: 400px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+  }
+
+  .past-events > hr {
+    margin-bottom: 10px;
+  }
+
+  .description-logo {
+    margin-bottom: 40px;
+  }
+
+  .row-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .concert-image {
+    margin: 0 0 100px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .partner-title {
+    margin-top: 50px;
+    color: #d3d3d3;
+  }
+
+  .partner {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 70px;
+  }
+
+  .sponsor-img {
+    filter: grayscale(1);
+    width: 200px;
+    height: 100px;
+  }
+
+  .footer {
+    height: 150px;
+    justify-content: flex-start;
+  }
+
+  .logo-footer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .title-footer {
+    margin: 0;
+  }
+
+  .description-footer {
+    margin: 0;
+    display: block;
+  }
 }
