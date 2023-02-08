@@ -411,7 +411,7 @@ body {
   width: 80%;
   list-style: none;
   gap: 30px;
-  margin: 80px 0 0;
+  margin: 60px 0;
   padding: 0;
 }
 
@@ -541,11 +541,29 @@ body {
   line-height: 18px;
 }
 
+.margin-header {
+  margin-right: 16%;
+}
+
+.state {
+  display: none;
+}
+
+.state-show {
+  display: flex;
+}
+
 /* artist section */
 
 @media screen and (min-width: 768px) {
   .header {
     flex-direction: column;
+  }
+
+  .bar-styles {
+    position: relative;
+    background-image: none;
+    top: 0;
   }
 
   .header-desktop {
@@ -587,11 +605,12 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .home-button {
     display: block;
+    margin-left: 16%;
   }
 
   .ham-btn {
@@ -610,6 +629,7 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
+    margin-right: 16%;
   }
 
   .nav-links {

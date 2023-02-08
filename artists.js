@@ -61,7 +61,7 @@ const artists = [
     portrait: 'images/jeiko.jpg',
     namee: 'Jeiko',
     litleDescription: 'Dj/Artist',
-    longDescription: 'Manta, Ec. Hey yo hago reguetón como electrónica así que solo tripea o perrea!!!',
+    longDescription: 'From Manta, Ec. Hey I do reggaeton like electronics so just trip or perrea!!!',
   },
 ];
 
