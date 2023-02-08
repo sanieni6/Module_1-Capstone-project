@@ -25,7 +25,9 @@
 
 # 📖 Capstone Project module 1: Conference page <a name="about-project"></a>
 
-This project is about a webpage for a music festival in my native city, Quevedo 
+This is the first capstone project of the Microverve program corresponding to module one.
+For this project, I developed a webpage for a music festival in my native city, Quevedo. I was inspired by the local environment, the music, and the flow to create webpage designs that reflect my country's unique festival style. <br>
+Based on an original design idea by Cindy Shin in Behance.
 
 ## 🛠 Built With <a name="built-with"></a>
 + Git
@@ -38,8 +40,8 @@ This project is about a webpage for a music festival in my native city, Quevedo
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [[Github-pages]](https://sanieni6.github.io/)
-- [[Loom-video]](https://www.loom.com/share/dde2e85dcab94155b785b64918f5e8d6)
+- [[Github-pages]](https://sanieni6.github.io/Module_1-Capstone-project/)
+- [[Loom-video]](https://www.loom.com/share/b5c817f95099406b918e48eb4cc324fe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,9 +80,9 @@ Linkedin: [Linkedin](https://www.linkedin.com/in/luissanchezz3/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-+ Add images to the webpage
-+ Create content for the webpage
-+ Do the webpage more interactive
++ Implement this webpage in a real environment.
++ Conclude all the functionalities of the webpage.
++ deploy in a real server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,16 +97,17 @@ Contributions, issues, and feature requests are welcome!
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project you can follow my work through my social networks
-Thanks to Cindy Shin for her template: [Behance](https://www.behance.net/adagio07)
+You can follow the author of the original template on [Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and Cindy shin.
+I would like to thank Microverse and Cindy shin for the inspiring.[Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📋License <a name="license"></a>
-This project is [Creative commons](LICENSE.md) licensed.
+This project is [Creative commons](LICENSE.md) licensed. <br>
+Based on an original design idea by Cindy Shin in Behance.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
