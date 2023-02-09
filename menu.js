@@ -8,6 +8,10 @@ const programSection = document.querySelector('#program');
 const artistSection = document.querySelector('#artists');
 const aboutSection = document.querySelector('#about');
 const home = document.querySelector('.home-page');
+const partners = document.querySelector('#partners');
+const footer = document.querySelector('#footer');
+const titleFooter = document.querySelector('.title-footer');
+const descriptionFooter = document.querySelector('.description-footer');
 
 function displayMenu() {
   closeBtn.style.display = 'block';
@@ -33,6 +37,10 @@ function displayAbout() {
   artistSection.style.display = 'none';
   aboutSection.classList.add('state-show');
   bar.classList.add('margin-header');
+  footer.classList.add('footer-color');
+  partners.classList.add('partner-state');
+  titleFooter.classList.add('footer-color-text');
+  descriptionFooter.classList.add('footer-color-text');
 }
 
 barElements.forEach((element) => element.addEventListener('click', close));
