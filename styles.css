@@ -343,7 +343,7 @@ body {
 }
 
 .logo-footer {
-  margin-left: 20%;
+  margin-left: 15%;
   width: 60px;
   height: 60px;
 }
@@ -352,6 +352,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-right: 15%;
 }
 
 .row-images {
@@ -550,6 +551,10 @@ body {
 }
 
 .state-show {
+  display: flex;
+}
+
+.partner-state {
   display: flex;
 }
 
@@ -911,5 +916,17 @@ body {
     align-self: flex-start;
     width: 15px;
     height: 1px;
+  }
+
+  .footer-color {
+    background-color: #272a31;
+  }
+
+  .footer-color-text {
+    color: #fff;
+  }
+
+  .partner-state {
+    display: none;
   }
 }
